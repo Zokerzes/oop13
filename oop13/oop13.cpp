@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    MyWindow A(10,10);
+    MyWindow A(2,2,10,10);
     A.Show();
 
     A.getX() = 5;
@@ -17,5 +17,7 @@ int main()
     A.moveX(2);
     A.moveY(7);
     A.Show();
+
+
 
 }

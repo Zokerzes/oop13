@@ -12,6 +12,11 @@ public:
 		height = H;
 		cout << "create object MyWindow" << endl;
 	};
+	MyWindow(int x,int y, int W, int H): Point(x,y) {
+		widht = W;
+		height = H;
+		cout << "create object MyWindow" << endl;
+	};
 	~MyWindow() { cout << "delete object MyWindow" << endl; };
 	int& getWidth() { return widht; };
 	int& getHeith() { return height; };
